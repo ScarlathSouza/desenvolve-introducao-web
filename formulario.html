@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Formulário - pesquisa de satisfação </title>
+    </head>
+    <body>
+        <h1> Pesquisa de satisfação </h1>
+        <form action="pagina.destino.html" method="post">
+            <section>
+                <h2> Dados pessoais</h2>
+            <p>
+                <label for="nome"> Nome: </label>
+                <input type="text" id="nome"/>
+            </p>
+            <p>
+                <label for="e-mail">  E-mail: </label>
+                <input type="text" id="e-mail"/>
+            </p>
+            <p>
+                <label for="contato">  Telefone para contato:  </label>
+                <input type="tel" id="contato"/>
+            </p>
+            </section>
+            <section>
+                <h2> Dados de pesquisa </h2>
+            <p>
+                Numa escala de 1 a 5, indique o nível de satisfação com nosso atendimento:
+                <input type="radio" id="1" name="atendimento"/>
+                <label for="1"> 1 </label>
+                <input type="radio" id="2" name="atendimento"/>
+                <label for="2"> 2 </label>
+                <input type="radio" id="3" name="atendimento"/>
+                <label for="3"> 3 </label>
+                <input type="radio" id="4" name="atendimento"/>
+                <label for="4"> 4 </label>
+                <input type="radio" id="5" name="atendimento"/>
+                <label for="5"> 5 </label>
+            </p>
+            <p>
+                Numa escala de 1 a 5, indique o quanto está satisfeito com a resolução do problema:
+                <input type="radio" id="1" name="resoluçao"/>
+                <label for="1"> 1 </label>
+                <input type="radio" id="2" name="resoluçao"/>
+                <label for="2"> 2 </label>
+                <input type="radio" id="3" name="resoluçao"/>
+                <label for="3"> 3 </label>
+                <input type="radio" id="4" name="resoluçao"/>
+                <label for="4"> 4 </label>
+                <input type="radio" id="5" name="resoluçao"/>
+                <label for="5"> 5 </label>
+            </p>
+            <p>
+                Departamento de atendimento:
+            <select>
+                <option> Recursos Humanos </option>
+                <option> Financeiro </option>
+                <option> Comercial </option>
+                <option> Marketing </option>
+                <option> Logística </option>
+                <option> TI </option>
+                <option> Jurídico </option>
+                <option> Atendimento ao cliente </option>
+            </select>
+            </p>
+            <p>
+                <input type="checkbox" id="check"/>
+                <label for="check"> <em> Autorizo compartilhar minhas informações com terceiros. </em> </label>
+            </p>
+            </section>
+            <p>
+                <input type="submit" value="Enviar"/>
+            </p>
+        </form>
+    </body>
+</html>
