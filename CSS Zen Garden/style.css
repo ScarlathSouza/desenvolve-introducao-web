@@ -1,10 +1,29 @@
 
 
-.principal { color:#fb94c4}
-.background { color:#161f30}
-.destaque { color:#FFFFFF}
+.destaque { color:#600841}
+.background { color:#aeeef0}
+.principal { color:#012430}
 
 html{
-    background:#161f30 ;
-    color:#fb94c4;
+    background:#aeeef0 ;
+    color:#012430;
+    
+    font-size: 18px;
+    font-family: poppins, sans-serif;
 }
+p {
+    text-indent: 1em;
+}
+h1,h2,h3 {
+    text-align: center;
+}
+h1 {font-size: 1.8 rem;}
+h2 {font-size: 1.4 rem;}
+h3 {font-size: 1.2 rem;}
+
+.summary {text-align: right;}
+.main p { line-height: 1.5;}
+
+abbr {font-variant: small-caps;}
+
+
