@@ -74,7 +74,7 @@ aside ul li {
 
 #design-selection {
     position:absolute;
-    top: 520px;
+    top: 440px;
     left: 62%;
     padding-left: 1%;
     padding-right: 1%;
@@ -109,3 +109,21 @@ aside ul li {
 
 .participation h3 { align-self: center;}
 
+a {color: #600841;}
+
+a:hover { color:#60084158}
+
+.main p:first-of-type:first-letter {
+    font-size: 3em;
+    font-family:Times, serif;
+    float: left;
+}
+
+.design-selection li {
+    border-top: #1f295c solid 1px;
+    padding-top: 10px;}
+
+.design-selection li:last-of-type {
+    border-bottom: #1f295c solid 1px;
+    padding-bottom: 10px;
+}
