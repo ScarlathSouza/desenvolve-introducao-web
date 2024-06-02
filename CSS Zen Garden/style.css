@@ -127,3 +127,43 @@ a:hover { color:#60084158}
     border-bottom: #1f295c solid 1px;
     padding-bottom: 10px;
 }
+
+@media screen and (max-width: 768px) {
+    #design-selection {
+        position: static;
+        width: 100%;
+    }
+
+    .explanation {
+        border-right: none;
+        width: 100%;
+    }
+
+    #zen-intro { height: auto;}
+
+    .participation { flex-direction: column;}
+
+    p { text-indent: 0;}
+}
+
+@media print {
+    html { font-family: 'Times New Roman', Times, serif;}
+
+    #zen-intro header {
+        background-color: #aeeef0;
+        color: #012430;
+    }
+
+    #design-selection {
+        position: static;
+        width: 100%;
+    }
+
+    .explanation {
+        border-right: none;
+        width: 100%;
+    }
+
+    #zen-intro { height: auto;}
+}
+
